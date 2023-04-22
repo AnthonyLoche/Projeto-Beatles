@@ -501,13 +501,21 @@ button {
     will-change: transform;
 }
 
+
 button:disabled {
     pointer-events: none;
 }
 
 button:hover {
     color: #fff;
-    background-color: #1A1A1A;
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+button.n:hover {
+    color: #fff;
+    background-color: #ff0000;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }
