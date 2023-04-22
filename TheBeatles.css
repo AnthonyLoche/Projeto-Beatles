@@ -1,0 +1,475 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    border-bottom: 5px solid #000000;
+    background-color: rgb(177, 177, 177);
+}
+
+
+div.barralado {
+    text-align: center;
+    background-color: rgb(177, 177, 177);
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+    width: 100%;
+    font-size: 20px;
+    height: 170px;
+
+}
+
+
+
+#lado {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 950px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoPl {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 2000px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoD2 {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 2000px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoD {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 2500px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoH {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 3250px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+#ladoDi {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 1850px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoJogo {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 975px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#ladoPle {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 2720px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 5px solid rgb(0, 0, 0);
+    float: right;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#Direito {
+    width: 95%;
+    height: 780px;
+    float: left;
+    margin-left: 50px;
+    max-width: 730px;
+}
+
+#Direitoa {
+    width: 95%;
+    height: 1051px;
+    float: left;
+    margin-left: 50px;
+    max-width: 730px;
+}
+
+
+
+#caixa {
+    float: right;
+    background-color: rgb(177, 177, 177);
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-right: 260px;
+    border-radius: 10;
+}
+
+caixa.q {
+    float: right;
+    width: 380px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 240px;
+    display: flex;
+}
+
+caixa.qa {
+    max-width: 30px;
+}
+
+p,
+historia {
+    max-width: 1250px;
+}
+
+#menu {
+    background-color: rgb(177, 177, 177);
+    width: 23%;
+    height: 2500px;
+    float: left;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+#menuWith {
+    background-color: rgb(177, 177, 177);
+    width: 23%;
+    height: 2000px;
+    float: left;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+#menuPle {
+    background-color: rgb(177, 177, 177);
+    width: 23%;
+    height: 2720px;
+    float: left;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+
+#menuH {
+    background-color: rgb(177, 177, 177);
+    width: 23%;
+    height: 3250px;
+    float: left;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+#menuB {
+    background-color: rgb(177, 177, 177);
+    width: 23%;
+    height: 2550px;
+    float: left;
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+#ladoB {
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    height: 2550px;
+    float: right;
+    border-left: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+
+}
+
+#rodape {
+    height: 150px;
+    background-color: rgb(177, 177, 177);
+    clear: both;
+    bottom: 0%;
+    border-top: 5px solid #000000;
+    width: 1520px;
+    border-right: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(157, 157, 157);
+    padding: 10px
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#Direito1 {
+    float: left;
+    margin-left: 50px;
+    max-width: 730px;
+}
+
+
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item2 {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+}
+
+.grid-containerM {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(157, 157, 157);
+
+}
+
+.grid-itemM {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.h1discos {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+.game-board {
+    margin-left: 100px;
+    width: 72.5%;
+    height: 500px;
+    border: 1px solid #333;
+    position: relative;
+    overflow: hidden;
+    background-image: url("Imagens/giphy\ \(1\).gif");
+    background-size: 1100px;
+    border: 5px solid #000000;
+}
+
+.cabeçalhoJogo {
+    margin-left: 100px;
+    max-width: 1000px;
+}
+
+.max {
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    animation: max-animation 2.5s infinite linear;
+}
+
+@keyframes max-animation {
+    from {
+        right: -80px
+    }
+
+    to {
+        right: 100%
+    }
+}
+
+
+.yellow {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px
+    }
+
+
+    100% {
+        bottom: 0
+    }
+
+}
+
+.whale {
+    position: absolute;
+    width: 100px;
+    animation: whale-animation 5.5s infinite linear;
+}
+
+@keyframes whale-animation {
+    from {
+        right: -100px
+    }
+
+    to {
+        right: 100%
+    }
+}
+
+
+body {
+    background-color: rgb(213, 213, 213);
+    color: #000000;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button {
+    border-radius: 5px;
+
+}
+
+table {
+    margin-left: 50px;
+    border: 5px solid #000000;
+    padding: 10px;
+}
+
+td {
+    border: 5px solid #000000;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+video {
+    border-radius: 10px;
+}
+
+h1.menu {
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button {
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+button:disabled {
+    pointer-events: none;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
