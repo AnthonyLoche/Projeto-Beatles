@@ -652,6 +652,6 @@ iframe {
     #openNav{display: none;}
     .menu{display: block;}
   }
-  @media screen and (max-width:767px){
+  @media screen and (max-width:790px){
     .MenuB {display:none;}
 }

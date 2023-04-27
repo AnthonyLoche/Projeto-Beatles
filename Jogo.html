@@ -8,42 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo The Beatles</title>
     <link rel="icon" type="image/x-icon" href="Imagens/subyellow.png">
-    <script>
-const yellow = document.querySelector('.yellow');
-const max = document.querySelector('.max')
-
-
-const jump = () => {
-  yellow.classList.add('jump');
-  setTimeout(() => {
-    yellow.classList.remove('jump');
-  }, 500);
-}
-
-const loop = setInterval(() =>{
-
-const maxPosition = max.offsetLeft();
-const yellowPosition = +window.getComputedStyle(yellow).bottom.replace('px', '');
-
-if (maxPosition <= 120 && maxPosition > 0 && yellowPosition < 80 ){
-
-  max.style.animation = 'none';
-  max.style.left = `${maxPosition}px`;
-
-  yellow.style.animation = 'none';
-  yellow.style.bottom = `${yellowPosition}px`;
-
-  yellow.src = "Imagens/subyellowbroken.png";
-  yellow.style.marginbottom = '50px'
-
-  clearInterval('loop')
-}
-
-}, 10 )
-
-document.addEventListener('keydown', jump);
-
-    </script>
+    <script src="TheBeatles.js"></script>
+    
 </head>
 
 <body>
@@ -59,7 +25,7 @@ document.addEventListener('keydown', jump);
 
                 <div class="barralado">
                     <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" class="menu">&times;</a>
                         <h4>Tópicos</h4>
                         <li>
                             <a href="Historia.html"><button>Uma Breve História dos Beatles</button></a>
@@ -72,7 +38,8 @@ document.addEventListener('keydown', jump);
                             <a href="Jogo.html"><button>Jogo Do Yellow Submarine</button></a>
     
                         </li>
-                        <li>
+                        <li>              
+    
                             <a href="Biografia.html"><button>Biografia dos Beatles</button></a>
                         </li>
                         <li>
@@ -85,7 +52,7 @@ document.addEventListener('keydown', jump);
     
     
                     </div>
-                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                    <span style="font-size:30px;cursor:pointer;" onclick="openNav()" class="openNav">&#9776;<div class="MenuB">Menu </div></span>
     </div>
     </header>
 
