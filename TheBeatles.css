@@ -168,7 +168,7 @@ form.example::after {
 #Direito {
     width: 95%;
     height: 780px;
-    
+
     max-width: 950px;
     min-width: 320px;
     margin: auto;
@@ -315,7 +315,7 @@ historia {
     height: 150px;
     background-color: rgb(177, 177, 177);
     clear: both;
-    position:absolute;
+    position: absolute;
     border-top: 5px solid #000000;
     width: 100%;
     border-right: 5px solid #000000;
@@ -330,7 +330,6 @@ historia {
     grid-template-columns: auto auto auto;
     background-color: rgb(157, 157, 157);
     padding: 10px7
-    
 }
 
 .grid-item {
@@ -368,15 +367,15 @@ historia {
     display: grid;
     grid-template-columns: auto auto;
     background-color: rgb(157, 157, 157);
-clear: both;
-width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 .grid-containerM2 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     background-color: rgb(157, 157, 157);
-clear: both;
+    clear: both;
 }
 
 .grid-itemM {
@@ -489,7 +488,7 @@ body {
     background-color: rgb(213, 213, 213);
     color: #000000;
     font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    
+
 }
 
 button {
@@ -617,30 +616,42 @@ iframe {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+@media screen and (max-height: 320px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1024px) {
+    #openNav{display: none;}
+    .menu{display: block;}
   }
-  
-  @media screen and (max-height: 320px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  @media screen and (max-width:767px){
+    .MenuB {display:none;}
+}
