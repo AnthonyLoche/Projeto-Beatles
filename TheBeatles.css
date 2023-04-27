@@ -351,13 +351,13 @@ historia {
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 10px;
 }
 
 .grid-item2 {
-    border: 5px solid rgb(0, 0, 0);
-    padding: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 3px;
     background-color: rgb(214, 212, 212);
     text-align: center;
     width: 100%;
@@ -654,4 +654,8 @@ iframe {
   }
   @media screen and (max-width:790px){
     .MenuB {display:none;}
+}
+
+h4 {
+    color: white;
 }
