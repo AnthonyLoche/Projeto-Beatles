@@ -8,35 +8,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>With The Beatles</title>
     <link rel="icon" type="image/x-icon" href="Imagens/subyellow.png">
+    <script src="TheBeatles.js"></script>
+
 </head>
 
 <body>
 
     <header>
 
-        <img src="Imagens/BeatlesLogo1.jpeg.png">
-        <img src="Imagens/BeatlesLogo2.jpg.png">
-        <img src="Imagens/BeatlesLogo3.jpg.png">
+        <img src="Imagens/BeatlesLogo1.jpeg.png class="logo" >
+
         <ul>
 
 
         
 
                 <div class="barralado">
-                    <h1>Menu</h1>
+                [  <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h4>Tópicos</h4>
+                    <li>
+                        <a href="Historia.html"><button>Uma Breve História dos Beatles</button></a>
+
+                    </li>
+                    <li>
+                        <a href="Discos.html"><button>Discos</button></a>
+                    </li>
+                    <li>
+                        <a href="Jogo.html"><button>Jogo Do Yellow Submarine</button></a>
+
+                    </li>
+                    <li>
+                        <a href="Biografia.html"><button>Biografia dos Beatles</button></a>
+                    </li>
                     <li>
                         <a href="QuemFez.html"><button>Veja Quem Fez o Site</button></a>
                     </li>
-                    <br>
+                    
                     <li>
-                        <a href="Nao.html"><button class="n">NÃO CLIQUE AQUI!</button></a>
+                        <a href="Nao.html"><button class="n"> NÃO CLIQUE AQUI!</button></a>
                     </li>
-    
-                    </br>
-                    </br>
-                    </br>
+
+
                 </div>
-                <div id="ladoWith"></div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+]
         </ul>
 
     </header>
@@ -198,7 +214,6 @@
 
 
     </div>
-    <div id="rodape"></div>
 </body>
 
 </html>

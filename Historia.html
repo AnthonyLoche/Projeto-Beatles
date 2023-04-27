@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historia</title>
     <link rel="icon" type="image/x-icon" href="Imagens/subyellow.png">
+    <script src="TheBeatles.js"></script>
+
 </head>
 
 <body>
@@ -15,8 +17,7 @@
     <header>
 
         <img src="Imagens/BeatlesLogo1.jpeg.png">
-        <img src="Imagens/BeatlesLogo2.jpg.png">
-        <img src="Imagens/BeatlesLogo3.jpg.png">
+      
         <ul>
 
 
@@ -24,28 +25,39 @@
 
             <div class="barralado">
                 
-                <h1>Menu</h1>
-                <li>
-                    <a href="QuemFez.html"><button>Veja Quem Fez o Site</button></a>
-                </li>
-                <br>
-                <li>
-                    <a href="Nao.html"><button class="n"> NÃO CLIQUE AQUI!</button></a>
-                </li>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <h4>Tópicos</h4>
+                    <li>
+                        <a href="Historia.html"><button>Uma Breve História dos Beatles</button></a>
 
-                </br>
-                </br>
-                </br>
-            </div>
-            <div id="ladoH"></div>
+                    </li>
+                    <li>
+                        <a href="Discos.html"><button>Discos</button></a>
+                    </li>
+                    <li>
+                        <a href="Jogo.html"><button>Jogo Do Yellow Submarine</button></a>
+
+                    </li>
+                    <li>
+                        <a href="Biografia.html"><button>Biografia dos Beatles</button></a>
+                    </li>
+                    <li>
+                        <a href="QuemFez.html"><button>Veja Quem Fez o Site</button></a>
+                    </li>
+                    
+                    <li>
+                        <a href="Nao.html"><button class="n"> NÃO CLIQUE AQUI!</button></a>
+                    </li>
+
+
+                </div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
         </ul>
 
     </header>
-    <div id="menuH">
-
-
-
-    </div>
+  
     <br>
     <div id="Direito">
         <h1>Uma Breve Historia dos Beatles</h1>
@@ -68,7 +80,7 @@
             (que eram um derivado do jazz e blues onde eram usados instrumentos improvisados como tábua de lavar roupa,
             garrafas, vassouras e etc) e em um dia a banda foi tocar em um parque onde Paul McCartney estava e ele
             assistiu o show e ao final foi até John e tocou uma música o que fez com que ele entrasse na banda.</p>
-        <br><img src="Imagens/linhadotempo21jpg.jpeg" alt="" width="900px" height="700px">
+        <br><img src="Imagens/linhadotempo21jpg.jpeg" alt="" width="100%" height="700px">
         <p> Passado um tempo eles viram que precisavam de um guitarrista bom, e Paul conhecia um garoto chamado George
             Harrison que era muito bom e conseguia tocar qualquer coisa e foi aí que ele entrou na banda que ainda era a
             The Quarrymen.</p>
@@ -87,7 +99,7 @@
             Best e Paul fizeram um mini incêndio no hotel e os dois foram extraditados também, mas Stuart decidiu
             abandonar os Beatles e ficou em Hamburgo o que fez Paul assumir o cargo de baixista .</p>
         <br>
-        <img src="Imagens/linhadotempo2.jpg" alt="" width="900px" height="700px"><br>
+        <img src="Imagens/linhadotempo2.jpg" alt="" width="100%" height="700px"><br>
         <p> Voltando para Liverpool trocaram o baterista(de Pete Best para Ringo Starr) e eles em 1963 conseguiram um
             contrato com a gravadora EMI e daí em diante foi só sucesso e depois de gravar Please Please Me gravaram:
             With the Beatles,A Hard Day’s Night, Help, Beatles For Sale, Rubber Soul, Revolver, White Album, Stg.
@@ -111,11 +123,11 @@
             assim encerrando o reinado dos The Beatles.</p>
         </p>
         <br>
-        <img src="Imagens/BeatlesB.jpg" alt="" width="900px" height="700px">
+        <img src="Imagens/BeatlesB.jpg" alt="" width="100%" height="700px">
     </div>
 
 
     </div>
-<div id="rodape"></div>
+
 </body>
 </html>

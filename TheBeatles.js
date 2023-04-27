@@ -32,6 +32,11 @@ if (maxPosition <= 120 && maxPosition > 0 && yellowPosition < 80 ){
 
 document.addEventListener('keydown', jump);
 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
  
