@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const yellow = document.querySelector('.yellow');
 const max = document.querySelector('.max')
 
@@ -38,7 +31,6 @@ if (maxPosition <= 120 && maxPosition > 0 && yellowPosition < 80 ){
 }, 10 )
 
 document.addEventListener('keydown', jump);
-
 
 
 function openNav() {
