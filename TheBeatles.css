@@ -361,18 +361,20 @@ historia {
     padding: 20px;
     background-color: rgb(214, 212, 212);
     text-align: center;
+    width: 100%;
 }
 
 .grid-containerM {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     background-color: rgb(157, 157, 157);
 clear: both;
+width: 100%;
 }
 
 .grid-containerM2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto ;
     background-color: rgb(157, 157, 157);
 clear: both;
 }
@@ -383,6 +385,7 @@ clear: both;
     padding: 20px;
     font-size: 15px;
     text-align: center;
+    width: 100%;
 }
 
 .h1discos {
